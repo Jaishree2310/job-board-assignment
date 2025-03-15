@@ -1,0 +1,34 @@
+# Node modules
+backend/node_modules/
+
+# Ignore node_modules
+node_modules/
+
+# Environment variables
+backend/.env
+
+# Logs
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/pids
+backend/*.log
+
+# Dependency directories
+backend/.pnp
+backend/.pnp.js
+
+# Python files
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/.python-version
+
+# Virtual environments
+backend/venv/
+backend/env/
+
+# Database & JSON dumps
+backend/*.sqlite3
+backend/*.db
+backend/*.json
